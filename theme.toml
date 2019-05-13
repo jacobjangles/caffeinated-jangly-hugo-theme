@@ -1,0 +1,26 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "caffeinated-jangly"
+license = "MIT"
+licenselink = "https://github.com/jacobjangles/caffeinated-jangly-hugo-theme/blob/master/LICENSE.md"
+description = "A clean, crisp, and caffeinated blogging theme"
+homepage = "https://github.com/jacobjangles/caffeinated-jangly-hugo-theme/"
+tags = ["blog", "minimal", "clean"]
+features = ["smooth", "minimal", "clean"]
+min_version = "0.41"
+
+[author]
+  name = "Jacob Jangles"
+  homepage = "https://jacobjangles.com"
+
+# If porting an existing theme
+[original]
+  name = "Chen Fangzhou"
+  homepage = "https://fixatom.com"
+  repo = "https://github.com/nirocfz/arabica"
+
+[original]
+  name = "Arabica"
+  homepage = "https://thedarkroast.com/"
+  repo = "https://github.com/slunsford/arabica"
