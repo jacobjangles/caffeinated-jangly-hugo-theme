@@ -147,7 +147,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-decoration: none;
 }
 
-.post-title a {
+.post-title-summary a {
 	color: #3A4145 !important;
 	text-decoration: none !important;
 }
@@ -351,14 +351,23 @@ a.nav-home, a.nav-blog {
 	margin-bottom: 0.5rem;
 }
 
+.post-title-summary {
+    margin-bottom: 0;
+    line-height: 1;
+}
+
 .post-title {
 	margin-bottom: 0;
 	line-height: 1;
+    text-align: center;
 }
 
 .post-meta {
 	text-transform: uppercase;
 	font-size: .79rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .post-footer {
