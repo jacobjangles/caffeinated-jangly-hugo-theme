@@ -38,41 +38,41 @@ body {
     width: 80%;
     max-width: 650px;
     margin: 0 auto;
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
 	font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 1.7;
     color: #3A4145;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Bree Serif", serif;
+    font-family: "Montserrat", serif;
 	font-weight: 500;
 	margin-bottom: 0;
 }
 
 h1 {
-	font-size: 1.802rem;
+	font-size: 1.887rem;
 }
 
 h2 {
-	font-size: 1.602rem;
+	font-size: 1.802rem;
 }
 
 h3 {
-	font-size: 1.424rem;
+	font-size: 1.602rem;
 }
 
 h4 {
-	font-size: 1.266rem;
+	font-size: 1.424rem;
 }
 
 h5 {
-	font-size: 1.125rem;
+	font-size: 1.266rem;
 }
 
 h6 {
-	font-size: 1rem;
+	font-size: 1.125rem;
 }
 
 p {
@@ -80,7 +80,7 @@ p {
 }
 
 code, tt, pre {
-    font-family: "Source Code Pro", monospace, sans-serif;
+    font-family: "Ubuntu Mono", monospace;
     white-space: pre-wrap;
     font-size: 0.79rem;
     border: none;
@@ -90,6 +90,11 @@ code, tt, pre {
 pre {
 	padding: 0 2em;
 	line-height: 1.3em;
+}
+
+/* Prism.JS override */
+pre[class*="language-"] {
+    font-size: 0.889rem;
 }
 
 code, tt {
@@ -124,7 +129,7 @@ hr {
 
 /* Links */
 .post a {
-    color: #FC7E0F;
+    color: #4CAF50;
     text-decoration: none;
 }
 
@@ -138,7 +143,7 @@ hr {
 }
 
 a.read-more, a.read-more:hover, a.read-more:visited {
-    color: #FC7E0F;	/* #DA1F15, #F17F33 */
+    color: #4CAF50;	/* #DA1F15, #F17F33 */
     text-decoration: none;
 }
 
@@ -148,7 +153,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 .post-title-summary a {
-	color: #3A4145 !important;
+	color: #4CAF50 !important;
 	text-decoration: none !important;
 }
 
@@ -232,9 +237,9 @@ dl dd {
 .blog-title {
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
 	font-weight: 300;
-    font-size: 2.887rem;
+    font-size: 3.887rem;
     vertical-align: middle;
     line-height: 1;
 }
@@ -245,11 +250,10 @@ dl dd {
 
 .blog-description {
     margin: 0;
-    font-size: 0.889rem;
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase;
+    font-size: 1.602rem;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0;
-    color: #9EABB3;
+    color: #087F23;
     font-weight: 300;
 }
 
@@ -273,11 +277,11 @@ dl dd {
 }
 
 .nav a:hover {
-	color: #FC7E0F;
+	color: #4CAF50;
 }
 
 a.nav-current {
-	color: #FC7E0F;
+	color: #4CAF50;
 }
 
 a.nav-home, a.nav-blog {
@@ -300,7 +304,7 @@ a.nav-home, a.nav-blog {
 }
 
 .site-footer a {
-	color: #FC7E0F;
+	color: #4CAF50;
 	text-decoration: none;
 }
 
@@ -325,13 +329,13 @@ a.nav-home, a.nav-blog {
 	margin-left: -.2rem;
 	padding: .35rem .1rem 0.05rem .2rem;
 	vertical-align: middle;
-	border: 1px #FC7E0F solid;
+	border: 1px #4CAF50 solid;
 	border-radius: 1.2rem;
 }
 
 .site-footer .rss a:hover {
 	color: #ffffff;
-	background: #FC7E0F;
+	background: #4CAF50;
 }
 */
 
@@ -380,7 +384,7 @@ a.nav-home, a.nav-blog {
 }
 
 .post-footer .tags a:hover {
-	color: #FC7E0F;
+	color: #4CAF50;
 }
 
 .post-footer h4 {
@@ -484,7 +488,7 @@ a.nav-home, a.nav-blog {
 	========================================================================== */
 
 .tag-title {
-    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.802rem;
 	font-weight: bold;
 	margin-top: 0;
@@ -539,7 +543,7 @@ a.nav-home, a.nav-blog {
 
 .older-posts:hover,
 .newer-posts:hover {
-    color: #FC7E0F;
+    color: #4CAF50;
 }
 
 .extra-pagination {
