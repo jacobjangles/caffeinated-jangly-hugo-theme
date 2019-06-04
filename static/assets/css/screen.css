@@ -312,6 +312,9 @@ a.nav-home, a.nav-blog {
 	color: #9EABB3;
 }
 
+.copyright {
+    color: #9EABB3;
+}
 
 /* RSS - enable to replace the simple RSS icon with a round button */
 
@@ -576,4 +579,12 @@ a.nav-home, a.nav-blog {
 	.blog-description {
 	   font-size: 1.266rem;
 	}
+}
+
+/* ==========================================================================
+   Icons
+   ========================================================================== */
+
+ion-icon {
+  font-size: 32px;
 }
