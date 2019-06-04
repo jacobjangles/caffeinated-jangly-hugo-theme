@@ -496,6 +496,7 @@ a.nav-home, a.nav-blog {
     font-family: "Open Sans", sans-serif;
     font-size: 1.802rem;
 	font-weight: bold;
+    text-align: center;
 	margin-top: 0;
 }
 
@@ -589,4 +590,7 @@ a.nav-home, a.nav-blog {
 
 ion-icon {
   font-size: 32px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0 0.2em;
 }
