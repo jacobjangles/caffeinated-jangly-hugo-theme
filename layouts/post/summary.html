@@ -3,7 +3,7 @@
     {{ with .Params.image }}
       <img src="{{ . }}"></img>
     {{ end }}
-		<h2 class="post-title-summary"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+		<h2 class="post-title-summary"><a href="{{ .URL }}">{{ .Title }}</a></h2>
 		<time class="post-date">{{ .Date.Format (.Site.Params.dateFormatToUse | default "02 Jan 2006")  }}</time>
 	</header>
 	<section class="post-excerpt">
