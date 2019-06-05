@@ -269,7 +269,7 @@ dl dd {
 
 .nav {
 	text-transform: uppercase;
-	font-size: .889rem;
+	font-size: 1.125rem;
 }
 
 .nav a {
@@ -593,4 +593,25 @@ ion-icon {
   text-align: center;
   vertical-align: middle;
   padding: 0 0.2em;
+}
+
+/* ==========================================================================
+   Social - Top
+   ========================================================================== */
+
+.social-top {
+    position: relative;
+    display: table;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.social-top a {
+    color: #3A4145;
+    text-decoration: none;
+}
+
+.social-top a:hover {
+    color: #9EABB3;
 }
