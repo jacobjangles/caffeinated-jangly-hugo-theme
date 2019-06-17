@@ -21,10 +21,6 @@
 	<section class="copyright">{{ . | safeHTML }}</section>
 	{{ end }}
 </footer>
-<!-- Renders Eva Icons -->
-<script>
-	eva.replace()
-</script>
 <!-- custom js -->
 {{ range .Site.Params.customJS }}
 <script src="{{ "/js/" | relURL }}{{ . }}"></script>
